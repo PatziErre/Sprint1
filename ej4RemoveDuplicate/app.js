@@ -6,10 +6,11 @@ var listOfNumbers = [3, 12, 3, 18, 12, 9];
 
 // Esta función busca los duplicados
 function quitarDuplicados(original){
-    // nuevo es el arreglo vacio
+    // declarar un arreglo vacio dentro de la función
     var nuevoArreglo = [];
 
     // Hacemos un bucle for que dure el largo del arreglo que recibio la función
+    // Con FOR for accedemos a cada elemento del arreglo
     for(i = 0; i <= original.length; i++){
         // Usamos una variable para saber si el elemento es nuevo
         var nuevo = true;

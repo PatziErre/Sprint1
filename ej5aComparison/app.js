@@ -1,9 +1,9 @@
-// función llamada areArraysSame que tome dos arrays como argumentos.
+// función llamada comparacion que tome dos arrays como argumentos.
 
 var gatito1 = ["Guero", "Camilo", "Efesios"];
 var gatito2 = ["Guero", "Camilo", "Efesios"];
 
-function areArraysSame (gatito1, gatito2) {
+function comparacion (gatito1, gatito2) {
   if (gatito1.length != gatito2.length) {
 return false;
   } 
@@ -15,4 +15,4 @@ return false;
   return true;
 }
 
-console.log(areArraysSame(gatito1, gatito2));
+console.log(comparacion(gatito1, gatito2));
